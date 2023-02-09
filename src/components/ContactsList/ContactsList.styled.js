@@ -6,7 +6,7 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: ${theme.space.secondary * 2}px;
+  gap: 20px;
   font-size: ${theme.typography.title};
   color: ${theme.colors.text};
 `;
@@ -14,8 +14,9 @@ export const Item = styled.li`
 export const DeleteButton = styled.button`
   font-size: ${theme.typography.text};
   text-align: center;
-  padding: ${theme.space.secondary}px;
+  padding: 8px 20px;
   cursor: pointer;
+  color: tomato;
   box-shadow: 1px 3px 5px ${theme.colors.buttonDelete};
   border: none;
   border-radius: 5px;
@@ -23,5 +24,6 @@ export const DeleteButton = styled.button`
   &:hover,
   &:focus {
     background-color: ${theme.colors.buttonDeleteHover};
+    box-shadow: 1px 3px 5px ${theme.colors.buttonDeleteHover};
   }
 `;

@@ -5,6 +5,7 @@ export const FilterInput = styled.input`
   font-size: ${theme.typography.text};
   padding: ${theme.space.secondary}px;
   color: ${theme.colors.text};
+  border-radius: 5px;
   margin-left: ${theme.space.secondary * 2}px;
   font-style: italic;
 `;
